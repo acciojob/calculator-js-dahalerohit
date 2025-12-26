@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+
+#calculate{
+    display: grid;
+    grid-template-columns:  repeat(4,100px);
+    grid-template-rows:  repeat(5,100px);
+    
+}
+button{
+    background-color: white;
+    font-size: 30px;
+}
+button:hover{
+    background-color: darkgray;
+}
+#equal{
+    background-color: blue;
+}
+
+
+#display{
+    background-color: white;
+    border: 1px solid black;
+    width: 398px;
+    height: 70px;
+    font-size: 45px;
+    text-align: right;
+    
+}
